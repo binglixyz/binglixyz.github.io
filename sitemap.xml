@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://binglixyz.github.io/2017/09/28/Add-sitemap-to-make-your-hexo-blog-searched-by-google/</loc>
+    
+    <lastmod>2017-09-28T03:21:52.611Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://binglixyz.github.io/2017/09/25/Add-gitment-comment-system-to-Next-theme/</loc>
     
     <lastmod>2017-09-25T04:11:40.030Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://binglixyz.github.io/2017/09/25/Latex-test/</loc>
     
     <lastmod>2017-09-24T17:09:54.668Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://binglixyz.github.io/2017/09/24/hello-world/</loc>
-    
-    <lastmod>2017-09-24T15:32:11.308Z</lastmod>
     
   </url>
   

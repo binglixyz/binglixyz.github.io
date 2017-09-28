@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>https://binglixyz.github.io/2017/09/28/Add-sitemap-to-make-your-hexo-blog-searched-by-google/</loc>
+    <lastmod>2017-09-28T03:21:52.611Z</lastmod>
+    <data>
+        <display>
+        <title>Add sitemap to make your hexo blog searched by google</title>
+        <pubTime>2017-09-28T02:52:32.000Z</pubTime>
+        
+        <tag>Blog related</tag>
+         
+        <tag>SEO</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://binglixyz.github.io/2017/09/25/Add-gitment-comment-system-to-Next-theme/</loc>
     <lastmod>2017-09-25T04:11:40.030Z</lastmod>
     <data>
@@ -30,21 +49,6 @@
         
         <tag>Toy post</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://binglixyz.github.io/2017/09/24/hello-world/</loc>
-    <lastmod>2017-09-24T15:32:11.308Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-09-24T15:32:11.307Z</pubTime>
-        
          
            
         </display>
