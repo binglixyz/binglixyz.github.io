@@ -53,7 +53,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="pytorch," />
 
 
 
@@ -69,13 +69,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Lyla&#39;s">
-<meta property="og:url" content="https://binglixyz.github.io/archives/2017/09/index.html">
+<meta name="description" content="Usage of optimizer.zero_grad() Why optimizer.zero_grad() before loss.backward() ?Ans: If we don’t zero the grads of optimizer, it will accumulate all the grads. Why can’t gradients be zeroed when loss">
+<meta name="keywords" content="pytorch">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dump questions about pytorch">
+<meta property="og:url" content="https://binglixyz.github.io/2017/09/30/Dump-questions-about-pytorch/index.html">
 <meta property="og:site_name" content="Lyla&#39;s">
+<meta property="og:description" content="Usage of optimizer.zero_grad() Why optimizer.zero_grad() before loss.backward() ?Ans: If we don’t zero the grads of optimizer, it will accumulate all the grads. Why can’t gradients be zeroed when loss">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2017-09-30T04:06:46.380Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lyla&#39;s">
+<meta name="twitter:title" content="Dump questions about pytorch">
+<meta name="twitter:description" content="Usage of optimizer.zero_grad() Why optimizer.zero_grad() before loss.backward() ?Ans: If we don’t zero the grads of optimizer, it will accumulate all the grads. Why can’t gradients be zeroed when loss">
 
 
 
@@ -105,13 +110,13 @@
 
 
 
-  <link rel="canonical" href="https://binglixyz.github.io/archives/2017/09/"/>
+  <link rel="canonical" href="https://binglixyz.github.io/2017/09/30/Dump-questions-about-pytorch/"/>
 
 
 
 
 
-  <title>Archive | Lyla's</title>
+  <title>Dump questions about pytorch | Lyla's</title>
   
 
 
@@ -130,7 +135,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -204,185 +209,155 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://binglixyz.github.io/2017/09/30/Dump-questions-about-pytorch/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lyla">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lyla's">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">Dump questions about pytorch</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-30T09:46:23+08:00">
+                2017-09-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        Um..! 4 posts in total. Keep on posting.
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2017">2017</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/09/30/Dump-questions-about-pytorch/" itemprop="url">
-              
-                <span itemprop="name">Dump questions about pytorch</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-30T09:46:23+08:00"
-              content="2017-09-30" >
-          09-30
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/09/28/Add-sitemap-to-make-your-hexo-blog-searched-by-google/" itemprop="url">
-              
-                <span itemprop="name">Add sitemap to make your hexo blog searched through google</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-28T10:52:32+08:00"
-              content="2017-09-28" >
-          09-28
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/09/25/Add-gitment-comment-system-to-Next-theme/" itemprop="url">
-              
-                <span itemprop="name">Add gitment comment system to Next theme</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-25T11:20:03+08:00"
-              content="2017-09-25" >
-          09-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <h4 id="Usage-of-optimizer-zero-grad"><a href="#Usage-of-optimizer-zero-grad" class="headerlink" title="Usage of optimizer.zero_grad()"></a>Usage of <code>optimizer.zero_grad()</code></h4><ul>
+<li><strong>Why <code>optimizer.zero_grad()</code> before <code>loss.backward()</code> ?</strong><br>Ans: If we don’t zero the grads of optimizer, it will accumulate all the grads.</li>
+<li><strong>Why can’t gradients be zeroed when <code>loss.backward()</code> is called?</strong><br>Ans: If so, if we process <code>optimizer.step()</code> after <code>loss.backward()</code>, the gradients will be hidden in the <code>loss.backward()</code> step. But sometimes we need to accumulate gradients among some batches. Ref<a href="https://stackoverflow.com/questions/44732217/why-we-need-to-call-zero-grad-on-optimizer-explicitly" target="_blank" rel="external">danche</a> in stackoverflow.</li>
+</ul>
+<h4 id="Gradient-vanishes-problem"><a href="#Gradient-vanishes-problem" class="headerlink" title="Gradient vanishes problem"></a>Gradient vanishes problem</h4><ul>
+<li><strong>When and why does this problem happen?</strong><br>Ans: If the activation function take input in large range and generate output in a small range (e.g tanh or sigmoid), large change of input may not change the output significantly, this leads to “Gradient vanish”. And this becomes much worse if we stack several layers. The data need to go through every layers. For instance, first layer will map a large input region to a smaller output region, which will be mapped to an even smaller region by the second layer, which will be mapped to an even smaller region by the third layer and so on. Ref<a href="https://www.quora.com/What-is-the-vanishing-gradient-problem" target="_blank" rel="external">Nikhil Garg</a> in quora.</li>
+<li><strong>How to avoid this problem?</strong><br>Ans: Use activation functions which  don’t have this property of ‘squashing’ the input space into a small region. Like RELU, which maps $x$ to $\max (0,x)$.</li>
+</ul>
+<p>####</p>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/09/25/Latex-test/" itemprop="url">
-              
-                <span itemprop="name">Latex test</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-25T00:37:07+08:00"
-              content="2017-09-25" >
-          09-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/pytorch/" rel="tag"># pytorch</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/28/Add-sitemap-to-make-your-hexo-blog-searched-by-google/" rel="next" title="Add sitemap to make your hexo blog searched through google">
+                <i class="fa fa-chevron-left"></i> Add sitemap to make your hexo blog searched through google
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -390,6 +365,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      
+        <div id="gitment-container"></div>
+    
+  </div>
+
+
         </div>
         
           
@@ -409,8 +392,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <p class="site-author-name" itemprop="name">Lyla</p>
@@ -462,6 +454,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Usage-of-optimizer-zero-grad"><span class="nav-number">1.</span> <span class="nav-text">Usage of optimizer.zero_grad()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Gradient-vanishes-problem"><span class="nav-number">2.</span> <span class="nav-text">Gradient vanishes problem</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

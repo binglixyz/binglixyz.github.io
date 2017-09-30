@@ -4,11 +4,28 @@
 
     
   <url>
-    <loc>https://binglixyz.github.io/2017/09/28/Add-sitemap-to-make-your-hexo-blog-searched-by-google/</loc>
-    <lastmod>2017-09-28T03:21:52.611Z</lastmod>
+    <loc>https://binglixyz.github.io/2017/09/30/Dump-questions-about-pytorch/</loc>
+    <lastmod>2017-09-30T04:06:46.380Z</lastmod>
     <data>
         <display>
-        <title>Add sitemap to make your hexo blog searched by google</title>
+        <title>Dump questions about pytorch</title>
+        <pubTime>2017-09-30T01:46:23.000Z</pubTime>
+        
+        <tag>pytorch</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://binglixyz.github.io/2017/09/28/Add-sitemap-to-make-your-hexo-blog-searched-by-google/</loc>
+    <lastmod>2017-09-30T01:44:33.506Z</lastmod>
+    <data>
+        <display>
+        <title>Add sitemap to make your hexo blog searched through google</title>
         <pubTime>2017-09-28T02:52:32.000Z</pubTime>
         
         <tag>Blog related</tag>
